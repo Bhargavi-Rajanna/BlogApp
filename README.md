@@ -1,3 +1,15 @@
+#Assumptions made while developing this app
+
+Using React js from client side and express js for server side rendering
+The data is loading from a local json file located in the src folder ( blogData.js)
+On landing it loads 3 blogs as list( this number is configurable) 
+On click of load more , it adds 3 more blogs to the list 
+Load more displays that’s all folks if there is no more blogs to load and the button gets disabled 
+Handled both responsive and mobile screen designs (suitable for mobile screen width min width of 350px )
+On Click of title on the blog list will take you to blogPage which loads the full blog details
+On click of close button on blogPage takes you back to the list page
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
