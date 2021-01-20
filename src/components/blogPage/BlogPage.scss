@@ -1,0 +1,117 @@
+.blog-container{
+    padding:25px;
+    text-align: left;
+    .blog-item{
+        position: relative;
+        .close-button {
+            font-size: 25px;
+            right: 362px;
+            font-size: 20px;
+            width: 2em;
+            height: 2em;
+            border: 0;
+            float: right;
+            margin-right: -12%;
+            margin-top: 15px;
+            cursor: pointer;
+            position: sticky;
+            z-index: 30;
+            right: 15px;
+            left: auto;
+            -webkit-transition: top .4s ease;
+            transition: top .4s ease;
+        }
+        .meta-container{
+            position: relative;
+            bottom: 0;
+            left: 0;
+            font-size: .8125rem;
+            font-family: aktiv-grotesk,sans-serif;
+            line-height: 1.54;
+            padding:25px 0;
+    
+            .authors a{
+                text-decoration: none;
+                color: inherit;
+                font-weight: 700;
+                line-height: 1.23;
+            }
+            .date-time-wrapper {
+                color: #777;
+            }
+        }
+
+        .title{
+            font-size: 28px;
+            font-size: 1.75rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 0;
+            margin-right: 20px;
+            cursor: pointer;
+          
+        }
+
+        .blog-content-wrap{
+            position: relative;
+            .blog-img{
+                min-width:650px;
+                min-height:500px;
+                object-fit: contain;
+            }
+            .image-credits{
+                font-size: .8125rem;
+                font-family: aktiv-grotesk,sans-serif;
+                line-height: 1.54;
+            }
+            .blog-description{
+                max-width:700px;
+                font-weight: 400;
+                color: #333;
+                letter-spacing: -.1px;
+                margin: 20px 0;
+                font-size: 18px;
+                font-size: 1.3rem;
+                font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+                line-height: 1.43;
+                p{
+
+                }
+            }
+           
+        }
+    }
+}
+
+@media screen and (min-width: 400px){
+    .blog-container{
+        padding: 100px 200px;
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+
+        .blog-item{
+            
+            .title{
+                font-size: 2.5rem;
+                margin-right: 0;
+                max-width: 750px;
+            }
+            .blog-content-wrap{
+                .blog-img{
+                    max-width:750px;
+                    min-height:500px;
+                    object-fit: contain;
+                }
+               
+                   
+                
+            }
+        }
+
+    }
+}

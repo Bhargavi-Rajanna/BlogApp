@@ -1,0 +1,30 @@
+.header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    top:0;
+    box-shadow: 1px 1px 2px #d9d9d9;
+    height:50px;
+    padding:0 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    background-color: #fff;
+
+    .logo{
+       
+        max-height: 50px;
+        max-width: 90px;
+        object-fit:contain;
+        vertical-align: middle;
+        
+    }
+
+}
+@media screen and (max-width: 600px){
+    .header{
+        height:75px;
+        top:15px;
+    }
+}
